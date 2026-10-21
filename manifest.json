@@ -1,0 +1,25 @@
+{
+  "name": "Asian Solar Infratech — Documents",
+  "short_name": "ASI Docs",
+  "description": "Customer Application and all solar project documents — quotation, agreements, annexures, certificates.",
+  "id": "asi-docs",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#16447f",
+  "theme_color": "#16447f",
+  "lang": "en-IN",
+  "categories": ["business", "productivity"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "New Customer", "short_name": "New", "url": "./index.html?doc=custapp&new=1", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] },
+    { "name": "Quotation", "short_name": "Quotation", "url": "./index.html?doc=quotation", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] },
+    { "name": "Customers", "short_name": "Customers", "url": "./index.html?open=customers", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] }
+  ]
+}
